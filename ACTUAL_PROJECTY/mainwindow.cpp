@@ -4,6 +4,8 @@
 #include<globalvar.h>
 #include<QMessageBox>
 #include<staffwindow.h>
+#include<QPixmap>
+#include<QMovie>
 #include<QTime>
 #include<QRegularExpression>
 #include<QtSql/QSqlDatabase>
@@ -38,6 +40,16 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    //for background
+    QImage bgpic("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/bg.jpg");
+    ui->bg_pic->setScaledContents(true);
+    ui->bg_pic->setPixmap(QPixmap::fromImage(bgpic));
+    ui->bg_pic->setVisible(true);
+
+    QMovie* gif1 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/penguin.gif");
+    ui->labelGif->setMovie(gif1);
+    gif1->start();
+    ui->labelGif->setScaledContents(true);
 }
 
 MainWindow::~MainWindow()

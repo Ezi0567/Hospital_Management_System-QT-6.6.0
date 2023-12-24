@@ -5,6 +5,7 @@
 #include <QMessageBox>
 #include <QString>
 #include <globalvar.h>
+#include<QMovie>
 #include<QFile>
 #include<mainwindow.h>
 #include<QUuid>
@@ -154,6 +155,25 @@ staffwindow::staffwindow(QWidget *parent) :
     ui(new Ui::staffwindow)
 {
     ui->setupUi(this);
+    QMovie* gif1 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/sparkle.gif");
+    ui->labelGif->setMovie(gif1);
+    gif1->start();
+    ui->labelGif->setScaledContents(true);
+
+    QMovie* gif2 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/calc.gi");
+    ui->labelGif_2->setMovie(gif2);
+    gif2->start();
+    ui->labelGif_2->setScaledContents(true);
+
+    QMovie* gif3 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/tree.gif");
+    ui->labelGif_3->setMovie(gif3);
+    gif3->start();
+    ui->labelGif_3->setScaledContents(true);
+
+    QMovie* gif4 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/tree.gif");
+    ui->labelGif_4->setMovie(gif4);
+    gif4->start();
+    ui->labelGif_4->setScaledContents(true);
 }
 
 staffwindow::~staffwindow()
@@ -164,6 +184,7 @@ staffwindow::~staffwindow()
 void staffwindow::on_tabWidget_tabBarClicked(int index)
 {
 
+    //Profile information display starts from here
         struct staff {
             QString name;
             QString department;
@@ -203,6 +224,9 @@ void staffwindow::on_tabWidget_tabBarClicked(int index)
             } else {
                 QMessageBox::information(this, "Contact Admin", "Query Failed");
             }
+            ////////////////////////////////////////////////////////////////////////////////////////
+
+            //Salary starts from here.
             qint32 k=0;
             double hoursworked;
             double totalhours=0;
@@ -227,18 +251,12 @@ void staffwindow::on_tabWidget_tabBarClicked(int index)
 
             }
         }
-
-
-
-
-
-
-
-
         else if (!conndb())
         {
             QMessageBox::information(this, "Error", "Database connection failed");
         }
+
+        //Test Result sections combobox being updated
         ui->comboBox->clear();
         ui->comboBox_2->clear();
         ui->comboBox_3->clear();
@@ -572,7 +590,7 @@ void staffwindow::on_pushButton_3_clicked()
                 ui->tableWidget_9->insertRow(row);
                 ui->tableWidget_9->setItem(row,0,new QTableWidgetItem (name));
 
-                ui->tableWidget_9->setItem(row,1,new QTableWidgetItem (testtype));
+                ui->tableWidget_9->setItem(row,1,new QTableWidgetItem (doctor));
                 ui->tableWidget_9->setItem(row,2,new QTableWidgetItem (testtype));
                 ui->tableWidget_9->setItem(row,3,new QTableWidgetItem (status));
                 ui->tableWidget_9->setItem(row,4,new QTableWidgetItem (requestdate));
@@ -865,7 +883,6 @@ void staffwindow::on_pushButton_6_clicked()
 
 void staffwindow::on_pushButton_7_clicked()
 {
-    // Assuming conndb() is a function that establishes a database connection
 
     if (conndb())
     {
@@ -895,11 +912,6 @@ void staffwindow::on_pushButton_7_clicked()
         qDebug() << "Database connection failed";
     }
 }
-
-//void staffwindow::on_comboBill_currentIndexChanged(int index)
-//{
-
-//    }
 
 
 

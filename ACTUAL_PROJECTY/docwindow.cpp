@@ -6,6 +6,7 @@
 #include<QDebug>
 #include<QMessageBox>
 #include<QDate>
+#include<QMovie>
 #include<globalvar.h>
 #include<mainwindow.h>
 #include<QUuid>
@@ -23,6 +24,20 @@ docwindow::docwindow(QWidget *parent) :
 
     ui->setupUi(this);
     ui->tabWidget->setCurrentIndex(0);
+    QMovie* gif = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/sparkle.gif");
+    ui->labelGif->setMovie(gif);
+    gif->start();
+    ui->labelGif->setScaledContents(true);
+
+    QMovie* gif3 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/tree.gif");
+    ui->labelGif_3->setMovie(gif3);
+    gif3->start();
+    ui->labelGif_3->setScaledContents(true);
+
+    QMovie* gif4 = new QMovie("C:/Users/Hamza Athar/Documents/ACTUAL_PROJECTY/resources/tree.gif");
+    ui->labelGif_4->setMovie(gif4);
+    gif4->start();
+    ui->labelGif_4->setScaledContents(true);
 }
 
 docwindow::~docwindow()
@@ -33,6 +48,7 @@ docwindow::~docwindow()
 void docwindow::on_tabWidget_tabBarClicked(int index)
 {
 
+    //Profile Information Display starts from here
     struct doc {
         QString name;
         QString department;
@@ -78,7 +94,9 @@ void docwindow::on_tabWidget_tabBarClicked(int index)
         } else {
             QMessageBox::information(this, "Contact Admin", "Query Failed");
         }
-
+        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///
+        //Salary for doctor calculation
             qint32 k=0;
             double hoursworked;
             double totalhours=0;
@@ -162,6 +180,8 @@ void docwindow::on_tabWidget_tabBarClicked(int index)
     } else if (!conndb()) {
         QMessageBox::information(this, "Error", "Database connection failed");
     }
+
+    //LAB RESULTS
     ui->comboBox_3->clear();
     QSqlQuery labr;
     labr.prepare("SELECT name FROM patient WHERE doctor=:docname");
