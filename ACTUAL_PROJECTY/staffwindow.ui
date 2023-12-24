@@ -61,7 +61,7 @@ QTabWidget::pane {
 </string>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>3</number>
    </property>
    <widget class="QWidget" name="tab_8">
     <attribute name="title">
@@ -1008,6 +1008,11 @@ QComboBox:hover {
 
 </string>
         </property>
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
         <item>
          <property name="text">
           <string>Cardiology</string>

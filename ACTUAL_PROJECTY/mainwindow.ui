@@ -55,7 +55,7 @@ QLabel {
           <string notr="true">QComboBox {
     background-color: rgb(255, 255, 255); 
     border: 2px solid rgb(29, 78, 139); 
-    border-radius: 2px; 
+    border-radius: 5px; 
     padding: 5 px; 
     font-size: 14 px; 
     color: rgb(0, 0, 0); 
@@ -67,6 +67,96 @@ QComboBox:hover {
 
 </string>
          </property>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Cardiology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Dermatology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Emergency Medicine</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Endocrinology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Gastroenterology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>General Surgery</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Internal Medicine</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Neurology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Obstetrics and Gynecology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Oncology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Opthalmology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Orthopedics</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pediatrics</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Psychiatry</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Pulmonary Medicine</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Rheumatology</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Urology</string>
+          </property>
+         </item>
         </widget>
        </item>
       </layout>
@@ -1017,7 +1107,6 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
    <zorder>pushButton_11</zorder>
    <zorder>pushButton_12</zorder>
    <zorder>label_5</zorder>
-   <zorder>layoutWidget</zorder>
    <zorder>label_8</zorder>
    <zorder>label_4</zorder>
    <zorder>layoutWidget_2</zorder>
@@ -1034,7 +1123,7 @@ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
      <x>0</x>
      <y>0</y>
      <width>1379</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
