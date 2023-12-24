@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>docwindow</class>
+ <widget class="QDialog" name="docwindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>732</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog {
+  background-color: rgb(194, 232, 255);
+}
+</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>90</y>
+     <width>1281</width>
+     <height>641</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTabWidget {
+    background-color: rgb(98, 162, 222);
+    color: #ffffff;
+    font-family: Arial, sans-serif; 
+}
+
+QTabBar::tab {
+    background-color:rgb(79, 157, 231); 
+    color: #ffffff;
+    padding: 8px 16px; 
+}
+
+
+QTabBar::tab:selected {
+    background-color: rgb(48, 115, 203); 
+}
+QTabWidget::pane {
+    border: 1px solid rgb(31, 74, 131); 
+    background-color:rgb(48, 115, 203);
+    padding: 10px; 
+}
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>5</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Home</string>
+    </attribute>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>160</y>
+       <width>561</width>
+       <height>331</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QTextBrowser
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 2px 2px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:16px; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma','sans-serif'; font-size:16px;&quot;&gt;‣ &lt;/span&gt;&lt;span style=&quot; font-size:16px; font-weight:400;&quot;&gt;Prioritize patient care and safety, delivering high-quality medical services with empathy and professionalism.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:1; text-indent:0px; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma','sans-serif'; font-size:16px;&quot;&gt;‣ &lt;/span&gt;&lt;span style=&quot; font-size:16px; font-weight:400;&quot;&gt;Uphold the highest ethical standards, respecting patient confidentiality and privacy at all times.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma','sans-serif'; font-size:16px;&quot;&gt;‣ &lt;/span&gt;&lt;span style=&quot; font-size:16px; font-weight:400;&quot;&gt;Be prepared for emergencies, maintaining knowledge of emergency procedures and the location of emergency equipment.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma','sans-serif'; font-size:16px;&quot;&gt;‣ &lt;/span&gt;&lt;span style=&quot; font-size:16px; font-weight:400;&quot;&gt;Provide patients with clear and comprehensive information about their conditions and treatment plans, encouraging their active involvement in healthcare decisions.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:400;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Tahoma','sans-serif'; font-size:16px;&quot;&gt;‣ &lt;/span&gt;&lt;span style=&quot; font-size:16px; font-weight:400;&quot;&gt;Prioritize personal well-being, seeking support for stress or burnout and maintaining a healthy work-life balance.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_6">
+     <property name="geometry">
+      <rect>
+       <x>320</x>
+       <y>110</y>
+       <width>561</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 2px 2px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Georgia'; font-size:16px; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Segoe UI'; font-size:11pt; font-weight:400;&quot;&gt;Hello Doctor! Below are some guidelines you are suggested to revise everyday.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>30</y>
+       <width>271</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Welcome!</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelGif_3">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>360</y>
+       <width>201</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelGif_4">
+     <property name="geometry">
+      <rect>
+       <x>1010</x>
+       <y>360</y>
+       <width>201</width>
+       <height>201</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Profile</string>
+    </attribute>
+    <widget class="QTextBrowser" name="textBrowser_7">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>110</y>
+       <width>771</width>
+       <height>431</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QTextBrowser
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+font: 9pt &quot;Georgia&quot;;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Georgia'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Name:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Gender:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;DOB:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;CNIC:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Contact:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:22pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:700;&quot;&gt;Address:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>380</x>
+       <y>40</y>
+       <width>511</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Profile Information</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_5">
+    <attribute name="title">
+     <string>Patients</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>150</y>
+       <width>671</width>
+       <height>371</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableWidget
+{
+background-color: rgb(219, 235, 255); 
+font-color: rgb(21, 50, 88); 
+border: 2px solid rgb(48, 115, 203);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+}
+QTableWidget:pressed 
+{
+background-color: rgb(45, 108, 190); 
+font-color: rgb(255, 255, 255);
+box-shadow: 2px 4px rgb(7, 17, 30); 
+}
+</string>
+     </property>
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>11</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>13</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>14</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>16</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>17</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>18</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>19</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>20</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Code</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Gender</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>DOB</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>CNIC</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Contact</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>20</y>
+       <width>261</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Patients</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>90</y>
+       <width>571</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid rgb(29, 78, 139); 
+    border-radius: 10px; 
+    padding: 2px; 
+    font-size: 14 px; 
+    color: rgb(0, 0, 0); 
+}
+
+QLineEdit:hover {
+    background-color:rgb(219, 235, 255);
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Search here...</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>530</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Monday">
+    <attribute name="title">
+     <string>Schedule</string>
+    </attribute>
+    <widget class="QTextBrowser" name="textBrowser_10">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>160</y>
+       <width>751</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QTextBrowser
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(8, 8, 8); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 2px 2px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 4px rgb(0, 0, 0); 
+}
+
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Georgia'; font-size:16px; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:400;&quot;&gt;Your schedule for this month is here.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>230</y>
+       <width>791</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableWidget
+{
+background-color: rgb(219, 235, 255); 
+font-color: rgb(21, 50, 88); 
+border: 2px solid rgb(48, 115, 203);
+border-radius: 5px; 
+ padding: 5px 5px;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+}
+QTableWidget:pressed 
+{
+background-color: rgb(45, 108, 190); 
+font-color: rgb(255, 255, 255);
+box-shadow: 2px 4px rgb(7, 17, 30); 
+}
+
+</string>
+     </property>
+     <row>
+      <property name="text">
+       <string>Monday</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Tuesday</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Wednesday</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Thursday</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Friday</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Saturday</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>8AM-9AM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>9AM-10AM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>10AM-11AM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>11AM-12PM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>12PM-1PM</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>BREAK</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>2PM-3PM</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>90</y>
+       <width>251</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Schedule</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_3">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>470</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_8">
+    <attribute name="title">
+     <string>Notes</string>
+    </attribute>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>40</y>
+       <width>171</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Notes</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_11">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>490</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Read</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>110</y>
+       <width>801</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit {
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid rgb(29, 78, 139); 
+    border-radius: 10px; 
+    padding: 2px; 
+    font-size: 14 px; 
+    color: rgb(0, 0, 0); 
+}
+
+QTextEdit:hover {
+    background-color:rgb(219, 235, 255);
+}
+
+</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="geometry">
+      <rect>
+       <x>660</x>
+       <y>490</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Write</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_6">
+    <attribute name="title">
+     <string>Test Results</string>
+    </attribute>
+    <widget class="QTableWidget" name="tableWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>690</x>
+       <y>120</y>
+       <width>481</width>
+       <height>361</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTableWidget
+{
+background-color: rgb(219, 235, 255); 
+font-color: rgb(21, 50, 88); 
+border: 2px solid rgb(48, 115, 203);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+}
+QTableWidget:pressed 
+{
+background-color: rgb(45, 108, 190); 
+font-color: rgb(255, 255, 255);
+box-shadow: 2px 4px rgb(7, 17, 30); 
+}
+</string>
+     </property>
+     <row>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>2</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>3</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>4</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>5</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>7</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>8</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>10</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>11</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>12</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>13</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>14</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>15</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>16</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>17</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>18</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>19</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>20</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Patient</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Test type</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Status</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Result</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>50</y>
+       <width>331</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Test Results</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>50</y>
+       <width>541</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Request A Test Here</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_4">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>490</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Submit</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>500</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Refresh</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>150</y>
+       <width>331</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_19">
+        <property name="font">
+         <font>
+          <family>Georgia</family>
+          <pointsize>-1</pointsize>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 14px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+        </property>
+        <property name="text">
+         <string>Patient:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="styleSheet">
+         <string notr="true">QComboBox {
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid rgb(29, 78, 139); 
+    border-radius: 2px; 
+    padding: 5 px; 
+    font-size: 14 px; 
+    color: rgb(0, 0, 0); 
+}
+
+QComboBox:hover {
+    background-color:rgb(219, 235, 255); 
+}
+</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_18">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>260</y>
+       <width>73</width>
+       <height>16</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 14px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Test type:</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="layoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>280</y>
+       <width>331</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>CBC</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>BMP</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_3">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Blood Type</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QRadioButton" name="radioButton_7">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Urinalysis</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_8">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Allergy Test</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_9">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Hormone Test</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QRadioButton" name="radioButton_10">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>ECG</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_11">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>X-Ray</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_12">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Ultrasound</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QRadioButton" name="radioButton_13">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>CT Scan</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_14">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Glucose Test</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_15">
+          <property name="font">
+           <font>
+            <family>Georgia</family>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QRadioButton
+{
+color: rgb(255, 255, 255);
+}</string>
+          </property>
+          <property name="text">
+           <string>Covid Test</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="tab_7">
+    <attribute name="title">
+     <string>Salary</string>
+    </attribute>
+    <widget class="QTextBrowser" name="textBrowser_salary">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>250</y>
+       <width>801</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 2px 2px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Georgia'; font-size:16px; font-weight:700; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;Total Work Days:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16px;&quot;&gt;No. Of Hours Worked:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_salary2">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>350</y>
+       <width>801</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>9</pointsize>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 2px 2px; 
+font-size: 16px;
+font-weight: bold;
+font: 9pt &quot;Georgia&quot;;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Georgia'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;Your salary for this month is:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>450</y>
+       <width>221</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 15px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 2px rgb(12, 29, 52); 
+}
+
+</string>
+     </property>
+     <property name="text">
+      <string>Heading out? Have a good day!</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>490</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton 
+{
+background-color: rgb(255, 255, 255); 
+color: rgb(26, 63, 111); 
+border: 2px solid rgb(29, 78, 139);
+border-radius: 5px; 
+padding: 10px 10px; 
+font-size: 16px;
+font-weight: bold;
+cursor: pointer; 
+transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+QPushButton:hover 
+{
+background-color: rgb(219, 235, 255); 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+QPushButton:pressed 
+{
+background-color: rgb(45, 108, 190); 
+color: rgb(255, 255, 255);
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Logout</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labelGif">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>90</y>
+       <width>121</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_26">
+     <property name="geometry">
+      <rect>
+       <x>540</x>
+       <y>170</y>
+       <width>191</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Georgia</family>
+       <pointsize>-1</pointsize>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+color: rgb(255, 255, 255);
+font-size: 50px; 
+font-weight: bold;
+}
+
+QLabel {
+text-shadow: 1px 1px 2px rgb(12, 29, 52); 
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Salary</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>10</y>
+     <width>591</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLabel {
+    color: rgb(30, 72, 127);
+    font-size: 35px; 
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+QLabel:hover {
+    color: rgb(48, 115, 203);
+    text-decoration: underline; 
+    cursor: pointer; 
+}
+
+QLabel {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); =-
+}
+</string>
+   </property>
+   <property name="text">
+    <string>DOCTOR MANAGEMENT SYSTEM</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
