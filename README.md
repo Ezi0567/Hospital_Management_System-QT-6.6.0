@@ -34,14 +34,12 @@ How to Use:
 Clone the Repository:
 
 bash
-git clone https://github.com/your-username/hospital-management-system.git
+git clone https://github.com/Ezi0567/Hospital_Management_System-QT-6.6.0
 
 Build and Run:
 
 Open the project in QT Creator.
 Build and run the application.
-Contribution Guidelines:
-We welcome contributions to enhance and improve the functionality of the Hospital Management System. If you would like to contribute, please follow our Contribution Guidelines.
 
 Issues and Bug Reporting:
 If you encounter any issues or find bugs, please report them in the Issues section.
