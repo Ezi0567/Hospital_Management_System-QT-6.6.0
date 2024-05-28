@@ -1,4 +1,5 @@
 Hospital Management System - QT (6.6.0) (First Semester Project)
+24.DEC.2023
 
 Welcome to our Hospital Management System repository! This project is a comprehensive solution designed to streamline the day-to-day operations of a hospital, providing an efficient and user-friendly platform for both medical staff and administrators.
 
